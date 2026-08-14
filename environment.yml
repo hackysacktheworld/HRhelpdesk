@@ -1,0 +1,13 @@
+name: genai-policy-builder
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - faiss-cpu
+  - numpy
+  - pip
+  - pip:
+      - sentence-transformers
+      - streamlit
+
